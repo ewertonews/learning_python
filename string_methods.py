@@ -54,3 +54,16 @@ print(name)
 print("length: ", len(name))
 
 #doc here: https://docs.python.org/3/library/stdtypes.html#string-methods
+
+word = "imagineabigwordhere"
+slice1 = word[0:6]
+slice2 = word[:4]
+slice3 = word[4:]
+slice4 = word[1:5:2]
+## word [start:end:step]
+
+#from end to start
+reversed = word[::-1]
+print(reversed)
+#we can count indexes from end to start, beginning with -1
+print(word[-1]) #will print "e"
