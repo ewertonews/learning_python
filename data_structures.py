@@ -1,8 +1,19 @@
 # Lists
 
 things = [ "Ewerton", "Willams", 14, 10, 1999, True, [2,3,7]]
+
 print("things: ", things)
 print("\"Silva\" in things ", "Silva" in things)
+
+
+print("Random choice from a list:\n")
+print("from random import choice")
+from random import choice
+
+print("choice(things)")
+print(choice(things))
+
+
 print("del things[-1]")
 del things[-1]
 
